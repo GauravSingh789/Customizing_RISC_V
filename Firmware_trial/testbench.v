@@ -1,6 +1,6 @@
 `timescale 1 ns / 1 ps
 `undef VERBOSE_MEM
-`undef WRITE_VCD
+`define WRITE_VCD
 `undef MEM8BIT
 
 module testbench;
@@ -82,9 +82,9 @@ module testbench;
 		if (mem_valid && mem_ready) begin
 `ifdef VERBOSE_MEM
 			if (|mem_wstrb)
-				$display("WR: ADDR=%x DATA=%x MASK=%b", mem_addr, mem_wdata, mem_wstrb);
+				$display("WR: ADDR=%d DATA=%d MASK=%b", mem_addr, mem_wdata, mem_wstrb);
 			else
-				$display("RD: ADDR=%x DATA=%x%s", mem_addr, mem_rdata, mem_instr ? " INSN" : "");
+				$display("RD: ADDR=%d DATA=%d%s", mem_addr, mem_rdata, mem_instr ? " INSN" : "");
 `endif
 			if (^mem_addr === 1'bx ||
 					(mem_wstrb[0] && ^mem_wdata[ 7: 0] == 1'bx) ||
