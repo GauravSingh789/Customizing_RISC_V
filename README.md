@@ -3,7 +3,10 @@
 This repository uses files from cliffordwolf's picoRV32 CPU Core (https://github.com/cliffordwolf/picorv32).
 The aim is to be able to run the ORB Feature detection algorithm on the CPU core and later optimize the core for faster implementation of the algorithm.
 
-## Folders in this Repository
+## Folders/Files in this Repository
+#### picorv32.v
+Verilog file for the CPU core.
+
 ### firmware
 The necessary firmware files (Taken from the cliffordwolf's repository) to run the picoRV32 core and generate a .hex file.
 
