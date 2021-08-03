@@ -18,7 +18,7 @@ An attempt to white a shell file to compile and run the C code and simulate the 
 
 ## Prerequisites to run the CPU core
 * RISC-V GNU tool chain (https://github.com/GauravSingh789/picorv32#building-a-pure-rv32i-toolchain)
-* GTKwave(https://iverilog.fandom.com/wiki/GTKWave) to view waveforms (.vcd output). 
+* GTKwave (https://iverilog.fandom.com/wiki/GTKWave) to view waveforms (.vcd output). 
   Steps to install -> 
   ```
   sudo apt-get update
