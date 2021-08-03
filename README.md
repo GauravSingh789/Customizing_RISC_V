@@ -1,10 +1,10 @@
-# Customising_RISC_V
+# Customizing_RISC_V
 ## Implementing ORB Feature detection algorithm on RISC-V Core
 This repository uses files from cliffordwolf's picoRV32 CPU Core (https://github.com/cliffordwolf/picorv32).
 The aim is to be able to run the ORB Feature detection algorithm on the CPU core and later optimize the core for faster implementation of the algorithm.
 
 ## Folders/Files in this Repository
-#### picorv32.v
+### picorv32.v
 Verilog file for the CPU core.
 
 ### firmware
@@ -33,6 +33,8 @@ To Run the modified dhrystone example in Runs folder, Run the makefile from the 
   make dhry.hex
   make test
   ```
+  #### Sample program's output
+  ![Sample Output](../master/output2.png)
   
 ## TO-DO
  * Implementing Standalone C code for FAST (https://github.com/edrosten/fast-C-src) on the CPU core after reading an image in the required format (i.e., we need to performing this conversion using MATLAB) as required by the FAST C code.
