@@ -41,7 +41,7 @@ To Run the modified dhrystone example in Runs folder, Run the makefile from the 
   ![Sample output Waveform (GTK Wave)](../master/output_Waveform.png)
   
 ## TO-DO
- * Implementing Standalone C code for FAST (https://github.com/edrosten/fast-C-src) on the CPU core after reading an image in the required format (i.e., we need to performing this conversion using MATLAB) as required by the FAST C code.
+ * Implementing Standalone C code for FAST (https://github.com/edrosten/fast-C-src) on the CPU core after reading an image in the required format (i.e., we need to perform this conversion using MATLAB) as required by the FAST C code.
  * Implemenitng rest of the parts of the ORB Algorithm on the CPU, taking the code by Ahmed Hisham (https://github.com/AhmedHisham1/ORB-feature-matching) as the reference for the standalone code.
   
   
