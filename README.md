@@ -35,6 +35,7 @@ To Run the modified dhrystone example in Runs folder, Run the makefile from the 
   ```
   #### Sample program's output
   ![Sample Output](../master/Output_2.png)
+  ![Sample output Waveform (GTK Wave)](../master/output_Waveform.png)
   
 ## TO-DO
  * Implementing Standalone C code for FAST (https://github.com/edrosten/fast-C-src) on the CPU core after reading an image in the required format (i.e., we need to performing this conversion using MATLAB) as required by the FAST C code.
