@@ -33,8 +33,11 @@ To Run the modified dhrystone example in Runs folder, Run the makefile from the 
   make dhry.hex
   make test
   ```
-  #### Sample program's output
+  #### Sample program's output 
+  A sample C code for findind the sum of numbers from 1 to 200 was executed on the picoRV32 core.
   ![Sample Output](../master/Output_2.png)
+  ##### Sample Output Waveform (GTK Wave)
+  The signals for the above program were viewed using GTKWave waveform viewer (.vcd file)
   ![Sample output Waveform (GTK Wave)](../master/output_Waveform.png)
   
 ## TO-DO
